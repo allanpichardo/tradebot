@@ -1,0 +1,25 @@
+{
+  "name": "tradebot",
+  "version": "0.0.1",
+  "description": "A bot that generates daily stock trades",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Allan Pichardo",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "csvtojson": "^1.1.4",
+    "google-finance": "^0.1.9",
+    "intraday": "0.0.5",
+    "knex": "^0.12.9",
+    "mysql": "^2.13.0",
+    "synaptic": "^1.0.10",
+    "yahoo-finance": "^0.2.16",
+    "yahoo-finance-data": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
+}
